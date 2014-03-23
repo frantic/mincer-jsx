@@ -7,8 +7,10 @@
     "test": "make test"
   },
   "devDependencies": {
-    "react-tools": "~0.10.0",
     "mincer": "~0.5.6"
+  },
+  "dependencies": {
+    "react-tools": "~0.10.0"
   },
   "repository": {
     "type": "git",
