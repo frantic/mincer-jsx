@@ -1,5 +1,7 @@
 'use strict';
 
+var prop = require('mincer/lib/mincer/common').prop;
+
 // Second param is not mandatory, used only to force specific
 // module version when nested dependencies cause conflict.
 module.exports = function addJsxEngine(Mincer, jsx) {
@@ -17,4 +19,5 @@ module.exports = function addJsxEngine(Mincer, jsx) {
 
   Mincer.registerEngine('.jsx', Mincer.JsxEngine);
 
+  prop(Mincer.JsxEngine, 'defaultMimeType', 'application/javascript');
 };
