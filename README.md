@@ -14,7 +14,7 @@ or add `mincer-jsx` to your `package.json`:
 
 ```json
 "dependencies": {
-  "mincer-jsx": "0.0.1"
+  "mincer-jsx": "0.0.3"
 }
 ```
 
@@ -27,7 +27,7 @@ var Mincer = require('mincer');
 require('mincer-jsx')(Mincer);
 ```
 
-Now files with `.js.jsx` extension will be compiled to using `react-tools` to JavaScript.
+Now files with `.jsx` extension will be compiled to using `react-tools` to JavaScript.
 
 
 ## Running Tests
