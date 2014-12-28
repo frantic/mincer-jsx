@@ -1,2 +1,9 @@
-/** @jsx React.DOM */
-React.renderComponent(<div>Hello, world!</div>, document.body);
+var views = {
+  HelloWorld: React.createClass({
+    render: function() {
+      return <div>Hello, world!</div>;
+    }
+  })
+}
+
+React.renderComponent(<views.HelloWorld />, document.body);
