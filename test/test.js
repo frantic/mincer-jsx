@@ -8,7 +8,7 @@ env.appendPath(__dirname + '/fixtures');
 
 var compiledAsset = env.findAsset('example').toString();
 
-if (compiledAsset.indexOf('React.DOM.div(') > 0) {
+if (compiledAsset.indexOf('React.createElement("div"') > 0) {
   console.log('OK');
 } else {
   console.error('Failed to compile JSX');
