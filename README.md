@@ -14,7 +14,7 @@ or add `mincer-jsx` to your `package.json`:
 
 ```json
 "dependencies": {
-  "mincer-jsx": "0.0.3"
+  "mincer-jsx": "0.0.5"
 }
 ```
 
@@ -34,7 +34,7 @@ Now files with `.jsx` extension will be compiled to using `react-tools` to JavaS
 
 ```
 $ npm install --development
-$ make test
+$ npm test
 ```
 
 
