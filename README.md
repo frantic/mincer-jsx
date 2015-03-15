@@ -14,7 +14,7 @@ or add `mincer-jsx` to your `package.json`:
 
 ```json
 "dependencies": {
-  "mincer-jsx": "0.0.5"
+  "mincer-jsx": "0.0.6"
 }
 ```
 
@@ -42,7 +42,7 @@ $ npm test
 
 The MIT License (MIT)
 
-Copyright © 2014 Alex Kotliarskyi <alex.frantic@gmail.com>
+Copyright © 2014-2015 Alex Kotliarskyi <alex.frantic@gmail.com>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

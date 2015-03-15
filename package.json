@@ -1,6 +1,6 @@
 {
   "name": "mincer-jsx",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "JSX engine for Mincer",
   "main": "index.js",
   "scripts": {
@@ -13,7 +13,7 @@
     "mincer": "~1.2"
   },
   "dependencies": {
-    "react-tools": "~0.12"
+    "react-tools": "~0.13"
   },
   "repository": {
     "type": "git",
