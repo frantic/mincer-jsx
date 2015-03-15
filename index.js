@@ -14,7 +14,7 @@ module.exports = function addJsxEngine(Mincer, jsx) {
   require('util').inherits(JsxEngine, Mincer.Template);
 
   JsxEngine.prototype.evaluate = function evaluate(context, locals) {
-     this.data = jsx.transform(this.data);
+     return jsx.transform(this.data);
   };
 
   Mincer.registerEngine('.jsx', Mincer.JsxEngine);
