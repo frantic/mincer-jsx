@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/aug-riedinger/mincer-jsx.git"
+    "url": "git://github.com/frantic/mincer-jsx.git"
   },
   "keywords": [
     "mincer",
@@ -28,7 +28,7 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/aug-riedinger/mincer-jsx/issues"
+    "url": "https://github.com/frantic/mincer-jsx/issues"
   },
-  "homepage": "https://github.com/aug-riedinger/mincer-jsx"
+  "homepage": "https://github.com/frantic/mincer-jsx"
 }
