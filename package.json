@@ -4,20 +4,15 @@
   "description": "JSX engine for Mincer",
   "main": "index.js",
   "scripts": {
-    "test": "make test"
-  },
-  "devDependencies": {
-    "mincer": "~1.2"
-  },
-  "peerDependencies": {
-    "mincer": "~1.2"
+    "test": "node test/test.js"
   },
   "dependencies": {
+    "mincer": "~1.3",
     "react-tools": "~0.13"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/frantic/mincer-jsx.git"
+    "url": "git://github.com/aug-riedinger/mincer-jsx.git"
   },
   "keywords": [
     "mincer",
@@ -28,10 +23,13 @@
     "react",
     "compile"
   ],
-  "author": "Alex Kotliarskyi",
+  "authors": [
+    "Alex Kotliarskyi",
+    "Augustin Riedinger"
+  ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/frantic/mincer-jsx/issues"
+    "url": "https://github.com/aug-riedinger/mincer-jsx/issues"
   },
-  "homepage": "https://github.com/frantic/mincer-jsx"
+  "homepage": "https://github.com/aug-riedinger/mincer-jsx"
 }
